@@ -98,6 +98,12 @@ mark { background: #f9dfb3; color: var(--ink); padding: 2px 5px; }
 .contact-readout a span { color: var(--pink); }
 .terminal-footer { margin: 24px 0 0 90px; color: var(--muted); font-size: 12px; }
 .terminal-footer span { color: #c27f97; }
+.cursor {animation: blink 1s step-end infinite;}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
 .dark-mode {
   --paper: #171127;
   --paper-deep: #25193e;

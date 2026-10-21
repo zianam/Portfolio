@@ -129,7 +129,7 @@ export default function Home() {
           <section className="help-popup" onClick={(event) => event.stopPropagation()} role="dialog" aria-modal="true" aria-labelledby="help-title">
             <button className="help-close" onClick={() => setShowHelp(false)} aria-label="Close navigation guide">×</button>
             <p className="help-kicker">WELCOME TO ZIANA&apos;S PORTFOLIO</p>
-            <h2 id="help-title">navigate like vim<span>_</span></h2>
+            <h2 id="help-title">navigate like vim<span className="cursor">_</span></h2>
             <div className="key-list">
               <p><kbd>j</kbd><kbd>k</kbd><span>scroll down / up</span></p>
               <p><kbd>g g</kbd><kbd>G</kbd><span>go to top / bottom</span></p>
